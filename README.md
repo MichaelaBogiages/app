@@ -18,18 +18,20 @@ The index.html file is where the user will upload their financial data.
   
  ## read_files.py
  
- In this python file a connection is made to the database as well. To ensure a the connection is succesful I list the names of all the databases. I then wrote a function that  parses the excel file and then using a for loop I inserted each row into thedatabase. 
+ In this python file a connection is made to the database as well. To ensure a the connection is succesful I list the names of all the databases. I then wrote a function that  parses the excel file and then using a for loop I inserted each row into the database. 
  
  ## main.py
  
- This python file ties everything together. Before I reference any functions I first render the html files. 
+ This python file ties everything together. Before I reference any functions I first render the html files. The home.html file is rendered on the home page of the web application and refrences the function built in the db_connection.py file. The index.html has the /index extension and this is where the user will upload their excel file. Once the user has uploaded the file I redirect the URL to remain on the /index page. 
  
  
  # Improvements
  1. The User should input all information on a single web page. In my design I did not account for that. The main issue with this would be creating a relationship between the two tables. 
  2. Saving any credentials in a secure manner. 
  3. Ensuring the data types are correct. This includes enabling an auto generated ID column for both tables.  
- 4. Implementing logic that appends or replaces a table
+ 4. Implementing logic that appends or replaces a table if it exists.
+ 5. Provision for more than excel files (csv,txt).
+ 6. Insert into the MySQL database excluding column headers. 
   
 
 
