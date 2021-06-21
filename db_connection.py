@@ -4,10 +4,7 @@ from random import random, seed
 
 
 mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Pen@2021",
-    database="tentpole"
+   
 )
 
 def insert_user(first_name, last_name,dob):
