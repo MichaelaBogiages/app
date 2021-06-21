@@ -1,4 +1,4 @@
-# app
+# Application Process
 
 # Step 1 - MySQL Database
 I installed MySQL and proceeded to scripted two tables. The first table is the User table which captures the First Name, Last Name and Date of Birth of the User.
@@ -11,7 +11,10 @@ The index.html file is where the user will upload their financial data.
 
 # Step 3 - Python
 
-## main.py 
+ ## db_connection.py 
+
+  In this python file a connection is made to the database. Usually I would store any credentials in an Azure Key Vault and reference this in my code for security reasons. 
+  
 
 
 
