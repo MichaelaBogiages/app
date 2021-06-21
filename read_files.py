@@ -4,10 +4,7 @@ from datetime import datetime
 from random import random, seed
 
 mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Pen@2021",
-    database="tentpole"
+  
 )
 
 mycursor = mydb.cursor()
