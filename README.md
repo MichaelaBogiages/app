@@ -26,9 +26,10 @@ The index.html file is where the user will upload their financial data.
  
  
  # Improvements
- 1. The User should input all information on a single web page. In my design I did not account for that. The main issue with this would be created a relationship between the two tables. 
+ 1. The User should input all information on a single web page. In my design I did not account for that. The main issue with this would be creating a relationship between the two tables. 
  2. Saving any credentials in a secure manner. 
  3. Ensuring the data types are correct. This includes enabling an auto generated ID column for both tables.  
+ 4. Implementing logic that appends or replaces a table
   
 
 
