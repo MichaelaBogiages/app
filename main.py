@@ -27,7 +27,7 @@ def addUserHome():
 app.config["DEBUG"] = True
 
 
-UPLOAD_FOLDER = r'C:\Users\Michaela Bogiages\OneDrive - Altron Group\Karabina\Personal Projects'
+UPLOAD_FOLDER = r'C:\Users\'
 app.config['UPLOAD_FOLDER'] =  UPLOAD_FOLDER
 
 @app.route("/index")
